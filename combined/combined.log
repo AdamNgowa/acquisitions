@@ -61,3 +61,15 @@
 {"level":"info","message":"User adam@example.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-04-12T21:03:33.756Z"}
 {"level":"error","message":"Sign in error cookies is not defined","service":"acquisitions-api","stack":"ReferenceError: cookies is not defined\n    at signIn (file:///C:/Users/HomePC/Desktop/DevOps/acquisitions/src/controllers/auth.controller.js:69:5)","timestamp":"2026-04-12T21:03:33.765Z"}
 {"level":"info","message":"::1 - - [12/Apr/2026:21:03:33 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 286 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-12T21:03:33.776Z"}
+{"level":"info","message":"User adam@example.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-04-12T21:05:25.903Z"}
+{"level":"info","message":"User signed in successfully: adam@example.com","service":"acquisitions-api","timestamp":"2026-04-12T21:05:25.911Z"}
+{"level":"info","message":"::1 - - [12/Apr/2026:21:05:25 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-12T21:05:25.920Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2026-04-12T21:06:19.617Z"}
+{"level":"info","message":"::1 - - [12/Apr/2026:21:06:19 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-12T21:06:19.627Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-04-23T18:12:16.971Z"}
+{"level":"info","message":"::1 - - [23/Apr/2026:18:12:16 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-04-23T18:12:16.987Z"}
+{"level":"info","message":"::1 - - [23/Apr/2026:18:12:17 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-04-23T18:12:17.402Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","timestamp":"2026-04-23T18:12:46.016Z","userAgent":"PostmanRuntime/7.53.0"}
+{"level":"info","message":"::1 - - [23/Apr/2026:18:12:46 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-23T18:12:46.017Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","timestamp":"2026-04-23T18:13:28.561Z","userAgent":"PostmanRuntime/7.53.0"}
+{"level":"info","message":"::1 - - [23/Apr/2026:18:13:28 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-23T18:13:28.570Z"}
